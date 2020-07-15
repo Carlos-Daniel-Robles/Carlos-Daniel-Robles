@@ -354,12 +354,12 @@ h2{
         text-align: center;
     }
     #Experiencia{
-        margin: 0.5em 1.1em;
+        margin: 0.5em 0 0.5em 1.1em;
     }
-    .container{
+/*     .container{
         width: 100%;
         padding: 0 1em;
-    }
+    } */
 }
 
 @media screen and (max-width: 480px){
@@ -395,11 +395,14 @@ h2{
     }
 } 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 360px){
     h1{
         font-size: 1.2em;
     }
     .hero{
         padding: 2em 1em;
+    }
+    .YCH img{
+        width: 100%;
     }
 } 
