@@ -182,6 +182,9 @@ h2{
             color: #fcad05;
             border-radius: 5px;
         }
+        .YCH-image{
+            height: auto;
+        }
 
 /*CONTACTO*/
 .contact{
@@ -302,6 +305,7 @@ h2{
     }
     .YCH img{
         width: 100%;
+        height: auto;
     }
 } 
 
@@ -358,6 +362,7 @@ h2{
     }
     .YCH img{
         width: 100%;
+        height: auto;
     }
     #Experiencia{
         margin: 0.5em 0 0.5em 1.1em;
@@ -402,6 +407,7 @@ h2{
     }
     .YCH img{
         width: 100%;
+        height: auto;
     }
     h2{
         font-size: 1em;
@@ -418,6 +424,7 @@ h2{
     }
     .YCH img{
         width: 100%;
+        height: auto;
     }
     h2{
         font-size: 1em;
