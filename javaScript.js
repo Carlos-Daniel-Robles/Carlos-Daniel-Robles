@@ -10,5 +10,4 @@ function hideShow() {
     else {
         menu.classList.add('is-active');
     }
-    
 }
