@@ -1,7 +1,21 @@
+
+const ipad = window.matchMedia('screen and (max-width: 767px)');
 const menu = document.querySelector('.menu');
-const burgerButton = document.querySelector('#burger-menu')
+const burgerButton = document.querySelector('#burger-menu');
 
 burgerButton.addEventListener('click', hideShow);
+
+ipad.addListener(validation);
+
+function validation(event) {
+    if (event.matches) {
+        burgerButton.addEventListener('click', hideShow);
+    }
+    else {
+        burgerButton.removeEventListener('click', hideShow);
+    }
+    console.log(event.matches);
+}
 
 function hideShow() {
     if (menu.classList.contains('is-active')) {
