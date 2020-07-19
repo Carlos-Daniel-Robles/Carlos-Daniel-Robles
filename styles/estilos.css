@@ -464,6 +464,26 @@ h2{
     .social{
         padding-top: 0.8em;
     }
+    .social-link.twitter{
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
+    .social-link.facebook{
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
+    .social-link.github{
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
+    .social-link.instagram{
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
     .footer{
         display: block;
         text-align: center;
